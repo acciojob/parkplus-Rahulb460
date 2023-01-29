@@ -19,6 +19,11 @@ public class ParkingLot {
     public ParkingLot() {
     }
 
+    public ParkingLot(String name, String address) {
+        this.name = name;
+        this.address = address;
+    }
+
     public int getId() {
         return id;
     }
